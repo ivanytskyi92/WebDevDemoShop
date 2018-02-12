@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>NewPortfolio</title>
+  <script src="https://use.fontawesome.com/359d1d1cf3.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  <header>
+	<nav class="navbar navbar-default navbar-fixed-top shadow">
+		<div class="container spacer-small-1-2">
+			<div class="navbar-header">
+				<button id="nav-toggle" type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-nav" aria-expanded="false">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand scroll-top" href="#">
+					<img alt="Brand" src="image/icon.svg"  width="42" height="42"/>
+				</a>
+			</div>
+
+			<div class="collapse navbar-collapse" id="main-nav">
+				<ul class="nav nav-pills navbar-right react-nav">
+					<li class="active"><a class="scroll-link" href="#" data-id="About">About</a></li>
+					<li><a class="scroll-link" href="#" data-id="Portfolio">Portfolio</a></li>
+					<li><a class="scroll-link" href="#" data-id="Contact">Contact</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+</header>
+
+<main>
+	<section id="About" class="container text-right">
+		<div class="row spacer">
+			<div class="col-md-8 spacer-out-vert">
+				<p class="lead"> </i> Сomputer science teacher at school No.27 and school No.10, Microsoft Certified Trainer, Office 365 Education IT administrator
+				</p>
+				<div class="separator separator-right"></div>
+				<h3>Computer science - Microsoft Office Education  - Office 365 admining </h3>
+			</div>
+			<div class="col-md-4">
+				<img alt="Myphoto" id="AboutPhoto" class="img-responsive img-rounded shadow" src="image/pokerface.jpg" width="177" height="236"/>
+			</div>
+		</div>
+	</section>
+
+	<section id="Portfolio" class="container text-center spacer">
+		<h1>Portfolio - <div class="secondary text-uppercase">Most Innovative Projects</div></h1>
+		<div class="separator"></div>
+		<article class="spacer-small img-rounded darken">
+			<div class="row">
+				<div class="col-md-6">
+					<a class="img-thumbnail shadow" href="#">
+						<img id="PF-01" class="img-responsive" src="image/junior.jpg" text="Business process"/>
+					</a>
+				</div>
+				<div class="col-md-6 lead">
+					<h2>Period:1999-2009</h2>
+					<div class="separator separator-mini"></div>
+					<ul class="text-left">
+						<li>Lorem ridiculus fusce hymenaeos, ridiculus netus tortor neque. Imperdiet purus.</li>
+						<li>Id tristique nisi porta, augue ultrices malesuada nascetur nascetur dui.li>
+						<li>Eget sit pharetra lectus. Ut quisque ante laoreet torquent proin.</li>
+						<li>Vestibulum aliquet. Tellus, velit viverra. Porttitor Enim sem parturient, quisque.</li>
+					</ul>
+				</div>
+			</div>
+		</article>
+		<article class="spacer-small img-rounded darken">
+			<div class="row">
+				<div class="col-md-6 lead">
+					<h2>Period:2009-2014</h2>
+					<div class="separator separator-mini"></div>
+					<ul class="text-left">
+						<li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+						<li>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</li>
+						<li>It has survived not only five centuries.</li>
+						<li>It was popularised in the 1960s with the release of Letraset sheets.</li>
+					</ul>
+				</div>
+				<div class="col-md-6">
+					<a class="img-thumbnail" href="#">
+						<img id="PF-01" class="img-responsive" src="image/worker.jpg" text="Worker"/>
+					</a>
+				</div>
+			</div>
+		</article>
+		<article class="spacer-small img-rounded darken">
+			<div class="row">
+				<div class="col-md-6">
+					<a class="img-thumbnail" href="#">
+						<img id="PF-01" class="img-responsive" src="image/ceo.jpg" text="CEO"/>
+					</a>
+				</div>
+				<div class="col-md-6 lead">
+					<h2>Period:2014-2018</h2>
+					<div class="separator separator-mini"></div>
+					<ul class="text-left">
+						<li>Sem, volutpat ad, fames conubia ligula nullam sed quisque ad.</li>
+						<li>Elementum. Platea facilisis id tempus risus ligula, pulvinar phasellus fringilla.</li>
+						<li>Risus lacinia nunc bibendum donec facilisi suscipit volutpat morbi dis.</li>
+						<li>Sociosqu enim metus dignissim pretium eu eros pharetra tempus maecenas.</li>
+					</ul>
+				</div>
+			</div>
+		</article>
+	</section>
+
+	<section id="Contact" class="container text-center spacer">
+		<h1>Contact Me</h1>
+		<div class="separator"></div>
+		<div class="row">
+			<div class="col-xs-6">
+				<form>
+					<div class="form-group">
+						<label for="contactName" class="sr-only">Name</label>
+						<input type="text" class="form-control" id="contactName"
+							   placeholder="Name">
+					</div>
+					<div class="form-group">
+						<label for="contactMail" class="sr-only">Name</label>
+						<input type="email" class="form-control" id="contactMail"
+							   placeholder="Email">
+					</div>
+					<div class="form-group">
+						<label for="contactPhone" class="sr-only">Name</label>
+						<input type="tel" class="form-control" id="contactPhone"
+							   placeholder="Phone-Number">
+					</div>
+					<div class="form-group">
+						<label for="contactMessage" class="sr-only">Name</label>
+						<input type="text" class="form-control" id="contactMessage"
+							   placeholder="Message">
+					</div>
+					<button type="button" class="btn btn-default">Send</button>
+				</form>
+			</div>
+			<div class="col-xs-6 text-left">
+				<p class="lead">Please complete your details and we'll contact you as soon as possible. The office hours of the Web Communications Team are 8am - 6pm Monday to Friday and 9am – 6pm on Saturday. Your request will be sent to Central Reservations so don't forget to tell us which hotel or location you are interested in. </p>
+			</div>
+		</div>
+	</section>
+</main>
+
+<footer>
+	<div class="container spacer">
+		<div class="row text-center">
+			<div class="col-xs-6">
+				<h3>ABOUT THIS PAGE</h3>
+				<p class="lead">Made in Ukraine by <a class="dark-link" href="#">Volodymy Ivanytskyi</a></p>
+			</div>
+			<div class="col-xs-6">
+				<h3>FIND ME</h3>
+				<a href="https://twitter.com/ivaniytskyi_" class="dark-link"><i class="fa fa-twitter-square fa-3x" aria-hidden="true"></i></a>
+			</div>
+		</div>
+	</div>
+	<nav class="navbar-default">
+		<div id="main-nav" class="container spacer-mini">
+			<div clas="row">
+				<div class="col-xs-3"></div>
+				<div class="col-xs-6">
+					<ul class="nav nav-pills nav-justified react-nav">
+						<li><a class="scroll-link" href="#" data-id="About">About</a></li>
+						<li><a class="scroll-link" href="#" data-id="Portfolio">Portfolio</a></li>
+						<li class="active"><a class="scroll-link" href="#" data-id="Contact">Contact</a></li>
+					</ul>
+				</div>
+				<div class="xs-3"></div>
+			</div>
+		</div>
+	</nav>
+</footer>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js'></script>
+
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>
